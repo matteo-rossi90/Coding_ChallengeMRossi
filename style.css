@@ -1,0 +1,103 @@
+body{
+    font-family:'Century Gothic', Arial;
+    color:white;
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    
+}
+
+
+
+/* "container" e "box-info" sono box che contengono tutte le informazioni, dal logo alle descrizioni dei monopattini */
+.container{
+    margin:auto;
+    background-color: rgb(0,0,0,0.60);
+    border-radius: 10px;
+    width:950px;
+    
+}
+
+.box-info{
+    padding: 8%;
+}
+
+/* proprietà del logo e del titolo */
+header{
+    text-align: center;
+    line-height: 6px;
+}
+
+header > img{
+    width: 200px;
+}
+
+/* colore titolo */
+header > h2{
+    color: #0ed40e;
+}
+
+/* barra di navigazione */
+nav{
+    background-color: #0ed40e;
+    color:black;
+    padding: 6px;
+    text-align: center;
+}
+
+/* pulsanti delle applicazioni */
+nav > button{
+    font-size: 10px;
+}
+
+/* bordi arrotondati delle tre barre */
+.barra1, .barra2, .barra3{
+    border-radius: 3px;
+    height: 20px;
+}
+
+/* barra del monopattino di Gino22 */
+.barra1{
+    width: 35%;
+    background-color: #f5b453;
+}
+
+/* barra del monopattino di Mike24 */
+.barra2 {
+    width: 60%;
+    background-color: #0ed40e;
+}
+
+/* barra del monopattino di Fede154 */
+.barra3 {
+    width: 15%;
+    background-color: #bb4443;
+}
+
+/* proprietà grafiche delle descrizioni dei singoli monopattini */
+.square, strong{
+    font-size: 18px;
+}
+
+div > span{
+    font-size: 12px;
+    display:block;
+}
+
+div > span, .square{
+    padding: 3px;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
